@@ -12,8 +12,5 @@
       "methods": ["POST"],
       "dest": "main.py"
     }
-  ],
-  "env": {
-    "EXAMPLE_URL": "https://colle-pedia.blogspot.com"  // استبدل برابط الزحف الخاص بك إذا لزم الأمر
-  }
+  ]
 }
