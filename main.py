@@ -16,7 +16,7 @@ crawled_data = []  # تخزين البيانات في الذاكرة بدلاً 
 
 class WebCrawler(scrapy.Spider):
     name = "web_crawler"
-    start_urls = ['https://example.com']  # ضع الرابط الذي تريد الزحف إليه هنا
+    start_urls = ['https://colle-pedia.blogspot.com']  # ضع الرابط الذي تريد الزحف إليه هنا
 
     def parse(self, response):
         post_body = response.css('div.post-body').get()
